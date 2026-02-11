@@ -1,14 +1,8 @@
 {
-  "domain": "cez_low_tariff_sensor_imap",
+  "domain": "cez_low_tariff_sensor",
   "name": "CEZ Tariff Sensor (IMAP, xlsx)",
-  "documentation": "https://github.com/psopso/",
+  "documentation": "https://github.com/psopso/cez_low_tariff_sensor",
   "requirements": ["pandas", "openpyxl", "xlrd"],
   "codeowners": ["@psopso"],
   "version": "2026.02.08"
 }
-
-Import nizkeho tarigu CEZ z xlsx
-
-cez_low_tariff_sensor_imap
-
-ČEZ Tariff Sensor (IMAP, xlsx)
