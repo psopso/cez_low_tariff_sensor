@@ -1,7 +1,7 @@
 {
-  "domain": "imap_attachment_nt",
-  "name": "IMAP Attachment Sensor",
-  "documentation": "https://github.com/psopso/ha_imap_attachment_nt",
+  "domain": "cez_low_tariff_sensor_imap",
+  "name": "CEZ Tariff Sensor (IMAP, xlsx)",
+  "documentation": "https://github.com/psopso/",
   "requirements": ["pandas", "openpyxl", "xlrd"],
   "codeowners": ["@psopso"],
   "version": "2026.02.08"
