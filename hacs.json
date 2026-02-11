@@ -1,5 +1,5 @@
 {
-  "name": "IMAP Attachment NT Sensor",
+  "name": "ČEZ Tariff Sensor (IMAP, xlsx)",
   "content_in_root": true,
   "render_readme": true
 }
