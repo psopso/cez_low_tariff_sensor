@@ -11,21 +11,21 @@ Tato integrace automatizuje sledování nízkého tarifu (HDO) na základě e-ma
 
 ## Instalace
 
-1. Vytvořte složku /config/custom_components/imap_attachment_nt/.
+1. Vytvořte složku /config/custom_components/cez_low_tariff_sensor/.
 2. Do této složky nahrajte soubory: sensor.py a manifest.json.
 3. Restartujte Home Assistant.
 
 ## Konfigurace (configuration.yaml)
 
 sensor:
-  - platform: imap_attachment_nt
+  - platform: cez_low_tariff_sensor
     name: "Elektřina Nízký Tarif"
     server: "imap.seznam.cz"
     port: 993
     username: "vas-email@seznam.cz"
     password: "vase-heslo-k-emailu"
     senders:
-      - "info@cez.cz"
+      - "info@info@cezdistribuce.cz"
     storage_path: "/config/attachments"
     email_interval_minutes: 60
 
