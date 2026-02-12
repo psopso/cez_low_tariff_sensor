@@ -17,17 +17,17 @@ Tato integrace automatizuje sledování nízkého tarifu (HDO) na základě e-ma
 
 ## Konfigurace (configuration.yaml)
 
-sensor:
-  - platform: cez_low_tariff_sensor
-    name: "Elektřina Nízký Tarif"
-    server: "imap.seznam.cz"
-    port: 993
-    username: "vas-email@seznam.cz"
-    password: "vase-heslo-k-emailu"
-    senders:
-      - "info@info@cezdistribuce.cz"
-    storage_path: "/config/attachments"
-    email_interval_minutes: 60
+> sensor:
+>   - platform: cez_low_tariff_sensor
+>     name: "Elektřina Nízký Tarif"
+>     server: "imap.seznam.cz"
+>     port: 993
+>     username: "vas-email@seznam.cz"
+>     password: "vase-heslo-k-emailu"
+>     senders:
+>       - "info@info@cezdistribuce.cz"
+>     storage_path: "/config/attachments"
+>     email_interval_minutes: 60
 
 ## Jak to funguje
 - Stahování: V intervalu se senzor připojí k IMAPu a najde e-mail s "Export" v předmětu.
