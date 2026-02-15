@@ -4,5 +4,5 @@
   "documentation": "https://github.com/psopso/cez_low_tariff_sensor",
   "requirements": ["pandas", "openpyxl", "xlrd"],
   "codeowners": ["@psopso"],
-  "version": "2026.02.08"
+  "version": "2026.02.15"
 }
